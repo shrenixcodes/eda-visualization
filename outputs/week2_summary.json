@@ -1,0 +1,110 @@
+{
+  "raw_shape": [
+    1309,
+    14
+  ],
+  "processed_shape": [
+    1309,
+    13
+  ],
+  "overall_survival_rate_pct": 38.2,
+  "survival_rate_by_class_pct": {
+    "1": 61.92,
+    "2": 42.96,
+    "3": 25.53
+  },
+  "survival_rate_by_sex_pct": {
+    "female": 72.75,
+    "male": 19.1
+  },
+  "median_age_by_survival": {
+    "0": 28.0,
+    "1": 28.0
+  },
+  "median_fare_by_class": {
+    "1": 60.0,
+    "2": 15.05,
+    "3": 8.05
+  },
+  "survival_rate_by_family_category_pct": {
+    "Alone (1)": 30.25,
+    "Small family (2-4)": 56.29,
+    "Large family (5+)": 18.29
+  },
+  "survival_rate_by_alone_status_pct": {
+    "0": 50.29,
+    "1": 30.25
+  },
+  "survival_rate_by_embarked_pct": {
+    "C": 55.56,
+    "Q": 35.77,
+    "S": 33.41
+  },
+  "fare_skewness_original": 4.37,
+  "fare_skewness_log": 0.54,
+  "correlation_matrix": {
+    "survived": {
+      "survived": 1.0,
+      "pclass": -0.31,
+      "age": -0.04,
+      "fare": 0.24,
+      "sibsp": -0.03,
+      "parch": 0.08,
+      "family_size": 0.03
+    },
+    "pclass": {
+      "survived": -0.31,
+      "pclass": 1.0,
+      "age": -0.38,
+      "fare": -0.56,
+      "sibsp": 0.06,
+      "parch": 0.02,
+      "family_size": 0.05
+    },
+    "age": {
+      "survived": -0.04,
+      "pclass": -0.38,
+      "age": 1.0,
+      "fare": 0.18,
+      "sibsp": -0.19,
+      "parch": -0.13,
+      "family_size": -0.19
+    },
+    "fare": {
+      "survived": 0.24,
+      "pclass": -0.56,
+      "age": 0.18,
+      "fare": 1.0,
+      "sibsp": 0.16,
+      "parch": 0.22,
+      "family_size": 0.23
+    },
+    "sibsp": {
+      "survived": -0.03,
+      "pclass": 0.06,
+      "age": -0.19,
+      "fare": 0.16,
+      "sibsp": 1.0,
+      "parch": 0.37,
+      "family_size": 0.86
+    },
+    "parch": {
+      "survived": 0.08,
+      "pclass": 0.02,
+      "age": -0.13,
+      "fare": 0.22,
+      "sibsp": 0.37,
+      "parch": 1.0,
+      "family_size": 0.79
+    },
+    "family_size": {
+      "survived": 0.03,
+      "pclass": 0.05,
+      "age": -0.19,
+      "fare": 0.23,
+      "sibsp": 0.86,
+      "parch": 0.79,
+      "family_size": 1.0
+    }
+  }
+}

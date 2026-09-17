@@ -1,0 +1,43 @@
+=== DATASET DIMENSIONS ===
+Raw dataset: 1309 rows, 14 columns
+Processed dataset: 1309 rows, 11 columns
+Columns (processed): ['pclass', 'survived', 'sex', 'age', 'sibsp', 'parch', 'fare', 'embarked', 'deck', 'family_size', 'is_alone']
+Missing values after Week 1 preprocessing: 0
+
+=== NUMERICAL SUMMARY ===
+           age     fare  family_size    sibsp    parch
+count  1309.00  1309.00      1309.00  1309.00  1309.00
+mean     29.50    33.28         1.88     0.50     0.39
+std      12.91    51.74         1.58     1.04     0.87
+min       0.17     0.00         1.00     0.00     0.00
+25%      22.00     7.90         1.00     0.00     0.00
+50%      28.00    14.45         1.00     0.00     0.00
+75%      35.00    31.28         2.00     1.00     0.00
+max      80.00   512.33        11.00     8.00     9.00
+
+=== CATEGORICAL SUMMARY ===
+{
+  "sex": {
+    "male": 843,
+    "female": 466
+  },
+  "pclass": {
+    "1": 323,
+    "2": 277,
+    "3": 709
+  },
+  "embarked": {
+    "S": 916,
+    "C": 270,
+    "Q": 123
+  },
+  "is_alone": {
+    "1": 790,
+    "0": 519
+  }
+}
+
+Overall survival rate: 38.20%
+
+Fare skewness (original): 4.37
+Fare skewness (log-transformed): 0.54
